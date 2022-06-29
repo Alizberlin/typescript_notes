@@ -45,3 +45,14 @@ let myCar: [number, string, string] = [2002, 'Honda', 'Corolla']
 union type is like logical operator OR |, pipe operator in typescript
 where as Intersection types are only the intersections logical operator AND &
 
+# Aliases
+
+## type aliases 
+- define a more meaningful name for this type
+- declare the particulars of the type in a single place
+- import and export this type from modules, the same as if it were an exported value
+
+# Functions
+
+## callable types 
+
