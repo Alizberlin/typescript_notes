@@ -20,4 +20,18 @@ const person3 = {
     last: 'Smith',
     age: 30,
 };
+// functions
+function pow(x, y) {
+    return Math.pow(x, y).toString();
+}
+// if function does not return anything, you can use void
+function poo(x, y) {
+    Math.pow(x, y).toString();
+}
+const arr = [];
+arr.push(1);
+arr.push('one');
+arr.push(false);
+arr.push([2, 3, 4]);
+arr.push({ a: 1, b: 2 });
 export {};
